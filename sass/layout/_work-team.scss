@@ -38,11 +38,11 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-light-theme-color)
+    color: $title-light-theme-color;
     }
     .subtitle-position {
     font-weight: normal;
-    color: var(--main-text-color);
+    color: $main-text-color;
     }
     .team-icon {
         display: flex;
@@ -60,14 +60,14 @@ border-radius: 0px 0px 4px 4px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: var(--title-dark-theme-color);
+    background-color: $title-dark-theme-color;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
     }
     .team-icon-social-list:hover,
     .team-icon-social-list:focus {
-        background-color: var(--aksent-color);
+        background-color: $aksent-color;
     }
     .team-icon-list-svg {
        width: 20px;
@@ -81,5 +81,5 @@ border-radius: 0px 0px 4px 4px;
     .team-icon-social-list:hover .team-icon-list-svg,
     .team-icon-social-list:focus .team-icon-list-svg
     {
-        fill: var(--title-dark-theme-color);
+        fill: $title-dark-theme-color;
     }

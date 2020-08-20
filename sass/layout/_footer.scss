@@ -19,7 +19,7 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 }
 .logotype,.address {
-color:var(--title-dark-theme-color);
+color:$title-dark-theme-color;
 }
 .footer-mailto, .footer-tel, .address{
 text-decoration: none;
@@ -37,15 +37,14 @@ margin-bottom: 9px;
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .footer-mailto:hover,
 .footer-mailto:focus {
-    color: var(--aksent-color);
+    color: $aksent-color;
 }
 .footer-tel:hover,
 .footer-tel:focus {
-    color: var(--aksent-color);
+    color: $aksent-color;
 }
 .footer-subscribe {
 margin-right: 94px;
@@ -56,7 +55,7 @@ padding-top: 72px;
  }  
 .footer-subtitle {
 margin-bottom: 20px;
-color: var(--title-dark-theme-color);
+color: $title-dark-theme-color;
 text-transform: uppercase;
 }
 .footer-icons {
@@ -67,7 +66,8 @@ text-transform: uppercase;
     margin-bottom: 0px;
         }
 .footer-icons-label:not(:last-child) {
-margin-right: 10px;}
+margin-right: 10px;
+}
  .footer-icon-list  {
 display: flex;
 justify-content: center;
@@ -83,7 +83,8 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-list:hover,
 .footer-icon-list:focus{
-    background-color: var(--aksent-color);}
+    background-color: $aksent-color;
+}
 .footer-icon-list-svg {
     width: 20px;
     height: 20px;
@@ -124,13 +125,13 @@ font-weight: bold;
 font-size: 16px;
 line-height: 1.625;
 letter-spacing: 0.03em;
-color: var(--title-dark-theme-color);
-background-color: var(--aksent-color);
-border: var(--aksent-color);
+color: $title-dark-theme-color;
+background-color: $aksent-color;
+border: $aksent-color;
 }
 .footer-button-icon-svg {
     margin-left: 10px;
     width: 20px;
     height: 20px;
-    fill: var(--title-dark-theme-color);
+    fill: $title-dark-theme-color;
 }
