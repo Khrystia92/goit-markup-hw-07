@@ -104,7 +104,8 @@ transform: translateY(-50%);
     line-height: 1.16;
     letter-spacing: 0.01em;
     transition: transform 250ms 
-    cubic-bezier(0.4, 0, 0.2, 1);}
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-field:focus-within > .modal-label-icons {
     fill: var(--aksent-color)
 }
@@ -127,7 +128,8 @@ transform: translateY(-50%);
     cubic-bezier(0.4, 0, 0.2, 1);    
 }
 .modal-field-text:focus-within > .modal-form-text-input {
-    border-color: var(--aksent-color);}
+    border-color: var(--aksent-color);
+}
 .modal-icons {
     width: 18px;
     height: 18px;
