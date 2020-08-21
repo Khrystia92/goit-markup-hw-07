@@ -13,14 +13,14 @@
     .web {
         color: $aksent-color;
     }
-        .header {
+    .header {
     border: 1px solid #ECECEC;
-    }
-    .header .container {
+    .container {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-between;}
     }
+
     .header-address {
         display: flex;
         padding-top: 32px;
@@ -43,7 +43,10 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+        color: $aksent-color;}
     }
+
     .navigation-list-item:not(:last-child) {
         margin-right: 50px;
     }
@@ -54,14 +57,9 @@
         letter-spacing: 0.02em;  
         color: $title-light-theme-color;
     }
-    .navigation-link:hover,
-    .navigation-link:focus {
+      .menu {
         color: $aksent-color;
-    }
-    .menu {
-        color: $aksent-color;
-    }
-    .menu::after {
+    &::after {
     display: block;
     content: "";
     width: 100%;
@@ -70,7 +68,10 @@
     border-radius: 2px;
     margin-top: 28px;
     }
-    .header-address .header-address-list{
+}
+    .header-address {
+        margin: 0px;
+    .header-address-list{
         display: flex;
         align-items: center;
         margin-top: 0px;
@@ -78,8 +79,6 @@
         padding-top: 0px;
         padding-bottom: 0px;
     }
-    .header-address {
-        margin: 0px;
     }
     .header-address-list-svg {
         margin-right: 10px;
@@ -89,26 +88,31 @@
         transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1); 
     }
     .header-mailto {
-        margin-right: 30px;
-    }
-    .header-mailto,.header-tel {
+    margin-right: 30px;
     color: $main-text-color;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-}
-    .header-mailto:hover, 
-    .header-mailto:focus {
+    &:hover, &:focus {
         color: $aksent-color;
     }
+}
+
+    .header-tel {
+    color: $main-text-color;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+    color: $aksent-color;
+    }
+}
     .header-mailto:hover .header-address-list-svg,
     .header-mailto:focus .header-address-list-svg{
         fill: $aksent-color;
     }
-    .header-tel:hover,
-    .header-tel:focus{
-        color: $aksent-color;
-    }
+ 
     .header-tel:hover .header-address-list-svg,
     .header-tel:focus .header-address-list-svg{
         fill: $aksent-color;
