@@ -20,7 +20,7 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: 30px;
 }
 &:hover, &:focus {
-    border-color: var(--aksent-color);
+    border-color: $aksent-color;
 }
 }
 .client-icon-item-svg {
@@ -31,5 +31,5 @@ transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-icon:hover .client-icon-item-svg,
 .client-icon:focus .client-icon-item-svg {
-    fill: var(--aksent-color);
+    fill: $aksent-color;
 }

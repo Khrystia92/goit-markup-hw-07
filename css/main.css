@@ -663,7 +663,7 @@ h3 {
 }
 
 .client-icon:hover, .client-icon:focus {
-  border-color: var(--aksent-color);
+  border-color: #2196F3;
 }
 
 .client-icon-item-svg {
@@ -675,7 +675,7 @@ h3 {
 
 .client-icon:hover .client-icon-item-svg,
 .client-icon:focus .client-icon-item-svg {
-  fill: var(--aksent-color);
+  fill: #2196F3;
 }
 
 .footer {
