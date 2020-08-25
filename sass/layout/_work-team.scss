@@ -27,20 +27,25 @@ border-radius: 0px 0px 4px 4px;
     position: relative;
     }
 .subtitle-name {
-        margin-bottom: 10px;
-    }
-.subtitle-position {
-        margin-bottom: 16px;
-        font-weight: normal;
-    color: $main-text-color;
-    }
-.subtitle-name, .subtitle-position {
+    margin-bottom: 10px;
+    $main-font:Roboto, sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: $title-light-theme-color;
+    }
+.subtitle-position {
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: normal;
+    color: $main-text-color;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
     }
 .team-icon {
         display: flex;
